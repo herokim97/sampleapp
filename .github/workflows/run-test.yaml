@@ -31,6 +31,7 @@ jobs:
           distribution: 'adopt' # See 'Supported distributions' for available options
           java-version: '17'
 
+      #실행 권한 추가
       - name: make executable gradlew
         run: chmod +x ./gradlew
 
@@ -41,3 +42,4 @@ jobs:
 
       ##push 1
       ##push 2
+      ##push 3
